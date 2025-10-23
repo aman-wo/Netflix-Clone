@@ -39,6 +39,14 @@ align-items: center;
 .header_left li,
 .header_right li {
   cursor: pointer;
+
+}
+.center {
+    display: flex;
+  list-style: none;
+  gap: 15px;    /*space between items*/
+  padding-top: 40px;
+  margin: 0;
 }
 
 

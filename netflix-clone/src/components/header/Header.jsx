@@ -12,23 +12,33 @@ const Header = () => {
         <div className="header_left">
           <ul>
             <li>
-            <img src={NetflixLogo} alt='Netflix Logo' width='100' />
+              <img src={NetflixLogo} alt="Netflix Logo" width="100" />
             </li>
-            <li>netflix</li>
-            <li>Home</li>
-            <li>TVShows</li>
-            <li>Movies</li>
-            <li>Latest</li>
-            <li>Mylist</li>
-            <li>Browse by language</li>
+            <div className='center'>
+              <li>netflix</li>
+              <li>Home</li>
+              <li>TVShows</li>
+              <li>Movies</li>
+              <li>Latest</li>
+              <li>Mylist</li>
+              <li>Browse by language</li>
+            </div>
           </ul>
         </div>
         <div className="header_right">
           <ul>
-            <li><SearchIcon/></li>
-<li><NotificationsNoneIcon/></li>
-<li><AccountBoxIcon/></li>
-<li><ArrowDropDownIcon/></li>
+            <li>
+              <SearchIcon />
+            </li>
+            <li>
+              <NotificationsNoneIcon />
+            </li>
+            <li>
+              <AccountBoxIcon />
+            </li>
+            <li>
+              <ArrowDropDownIcon />
+            </li>
           </ul>
         </div>
       </div>
